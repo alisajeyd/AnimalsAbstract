@@ -18,15 +18,18 @@ public class RunAnimal {
 		birdie.sleep();
 		birdie.makeSound();
 	}
-	if(choose.equalsIgnoreCase("C")) {
+	else if(choose.equalsIgnoreCase("C")) {
 		pusi.eat();
 		pusi.sleep();
 		pusi.makeSound();
 	}
-	if(choose.equalsIgnoreCase("D")) {
+	else if(choose.equalsIgnoreCase("D")) {
 		dogie.eat();
 		dogie.sleep();
 		dogie.makeSound();
+	}
+	else {
+		System.out.println("Wrong imput! Only enter letters B, C or D.");
 	}
 	}
 	
